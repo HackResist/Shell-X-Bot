@@ -1,5 +1,9 @@
 # Shell-X-Bot🤖
 
+<p align="center">
+      <img src="image.jpeg" ></img>
+ </p>
+
 ## You can read in: 
  <p align="center">
     <a href="/docs/lang/readme_de.md">Deutsch</a>
