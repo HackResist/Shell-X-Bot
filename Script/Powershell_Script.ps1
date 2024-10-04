@@ -63,7 +63,7 @@ function Send-WelcomeMessage {
                       "/killprocess <process_id> | <application_name> - Kill a running process by ID or name.`n" +
                       "/getHardwaredevices - Get All Hardware Device info.`n" +
                       "/runprocess <exe_path> [optional_args path] - Run a process or only executable file.`n" +
-                     "/help - If you're facing any issues with the command, you can refer to the GitHub repository or the blog link for help.`n"
+                     "/help - If you're facing any issues with the command, you can refer to the GitHub repository link for help.`n"
 
     Send-TelegramMessage -message $welcomeMessage
 }
@@ -322,7 +322,7 @@ function Process-Command($command) {
         }
         #Help Section
         "/help" {
-            $defaultLinks = "https://github.com/your-repo https://your-blog.com"
+            $defaultLinks = "https://github.com/hackresist/Shell-X-bot "
             Send-TelegramMessage -message "Here are the links: $defaultLinks"
         }		
         # Default Message 
